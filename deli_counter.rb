@@ -3,7 +3,7 @@ def line(current_line)
     puts "The line is currently empty."
   else
     order = []
-    current_line.do 
+    current_line.do |customer|
       
     puts "The line is currently: #{order}"
   end
