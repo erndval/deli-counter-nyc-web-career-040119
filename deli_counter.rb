@@ -8,7 +8,7 @@ def line(current_line)
     order.push("#{place}. #{customer}")
     place += 1
   end
-    puts order
+    puts "The line is currently: #{order.join}"
   end
 end
 
