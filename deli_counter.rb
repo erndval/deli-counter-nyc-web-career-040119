@@ -7,5 +7,5 @@ end
 
 def take_a_number(line, name)
   line.push(name)
-  puts 
+  puts "Welcome #{name}. You are number #{line.size+1}"
 end
