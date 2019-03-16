@@ -4,7 +4,7 @@ def line(current_line)
   else
     order = []
     place = 1
-    current_line.do |customer|
+    current_line.each do |customer|
     order.push("#{place}, #{customer}")
     place += 1
   end
