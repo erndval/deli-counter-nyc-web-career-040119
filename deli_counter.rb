@@ -3,8 +3,11 @@ def line(current_line)
     puts "The line is currently empty."
   else
     order = []
+    place = 1
     current_line.do |customer|
-      
+    order.push("#{place}, #{customer}")
+    place += 1
+  end
     puts "The line is currently: #{order}"
   end
 end
