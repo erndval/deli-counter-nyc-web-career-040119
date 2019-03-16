@@ -5,7 +5,7 @@ def line(current_line)
     order = []
     place = 1
     current_line.each do |customer|
-    order.push(place'.' customer)
+    order.push(place'.', customer)
     place += 1
   end
     puts "The line is currently: #{order}"
