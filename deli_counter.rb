@@ -3,6 +3,7 @@ def line(current_line)
     puts "The line is currently empty."
   else
     puts "The line is currently:  "
+  end
 end
 
 def take_a_number(line, name)
@@ -16,4 +17,5 @@ def now_serving(line)
   else
     puts "Currently serving #{line[0]}."
     line.shift
+  end
 end
