@@ -3,6 +3,8 @@ def line(current_line)
     puts "The line is currently empty."
   else
     order = []
+    loop do
+      
     puts "The line is currently:  "
   end
 end
