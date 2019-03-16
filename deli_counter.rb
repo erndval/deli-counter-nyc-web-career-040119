@@ -5,7 +5,7 @@ def line(current_line)
     order = []
     loop do
       
-    puts "The line is currently:  "
+    puts "The line is currently: #{order}"
   end
 end
 
